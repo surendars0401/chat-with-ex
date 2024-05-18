@@ -9,7 +9,7 @@ import google.generativeai as genai
 from google.generativeai.types.generation_types import StopCandidateException
 
 # Configure the API
-genai.configure(api_key="AIzaSyDw4W-8fNoskzX-ahhj6sW-l3qxTzKwVIM")
+genai.configure(api_key="API_key")
 
 # Set up the model
 generation_config = {
